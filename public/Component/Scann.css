@@ -1,0 +1,83 @@
+
+.upload-container {
+  background: white;
+  padding: 30px;
+  width: 650px;
+  transform: translate(70%, 70%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.upload-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.upload-path {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.folder-icon {
+  width: 60px;
+  height: 40px;
+  background: url('folder-icon.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto 10px;
+}
+
+.upload-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #7d287d;
+}
+
+.upload-btn:hover {
+  background-color: #a832a8;
+}
+
+#file-input {
+  display: none;
+}
+
+.upload-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.upload-note {
+  font-size: 12px;
+  color: gray;
+}
+
+.close-btn {
+  margin-top: 15px;
+  padding: 8px 20px;
+  border: none;
+  background-color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-image: -webkit-image-set("./scanKM (2).jpg");
+}

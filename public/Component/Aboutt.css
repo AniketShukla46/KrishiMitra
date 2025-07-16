@@ -1,0 +1,34 @@
+.aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: rgb(215, 235, 126);
+  gap: 100px;
+}
+.aboutus .aboutpara h1{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aboutpara {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 50px;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 150px;
+}
+.aboutimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 90px;
+}
+
+.aboutimg img {
+  max-width: 100%;
+  height: auto;
+}
