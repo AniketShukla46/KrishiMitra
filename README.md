@@ -1,41 +1,38 @@
-🌱 Krishi Mitra – AI-Powered Crop Disease Detection App
-Krishi Mitra is an AI-powered mobile application that helps farmers and agriculture professionals detect crop diseases from plant images using state-of-the-art deep learning models. The app offers actionable insights and suggestions for disease management, making farming smarter and more efficient.
+# 🌱 Krishi Mitra – AI-Powered Crop Disease Detection App
 
-📱 Features
-🔍 Crop Disease Detection: Upload or capture leaf images to identify diseases.
+Krishi Mitra is a mobile application that helps farmers detect crop diseases using AI-based image recognition. It provides instant diagnosis and treatment suggestions, aiming to support sustainable agriculture.
 
-🧠 AI Models: Integrated with ResNet50-based model (99.01% accuracy) trained on 85,000+ images across 95 classes.
+---
 
-📊 Prediction History: Keep track of all your previous disease scans.
+## 📱 Features
 
-🌦 Weather Insights: View live weather data for your location.
+- 🔍 **Disease Detection from Leaf Images**
+- 🧠 **ResNet50-based Deep Learning Model (99.01% accuracy)**
+- 📂 **Upload from Camera or Gallery**
+- 📊 **Scan History with Date & Disease Info**
+- 🌦 **Live Weather Forecasts**
+- 🔐 **Google & Microsoft Sign-In (via Firebase)**
+- 💬 **ChatGPT Assistant for Support**
 
-🔐 Secure Login: Sign in using Google or Microsoft accounts via Firebase Authentication.
+---
 
-💬 Chat Support: ChatGPT-powered virtual assistant for farming queries.
+## 🧪 Dataset & Model
 
-🧪 Dataset and Model
-📂 Dataset
-Name: Krishi Mitra Dataset
+### 📁 Dataset
 
-Size: 85,000 images
+- **Total Images:** 85,000
+- **Classes:** 95 disease categories
+- **Crops Covered:** 23 types
+- **Sources:** Merged from PlantVillage, custom (papaya, pigeonpea, bitter gourd), manual cleaning
 
-Classes: 95 disease categories across 23 crops
+### 🧠 Model
 
-Sources: Merged and cleaned data from PlantVillage, custom datasets (papaya, pigeonpea, bitter gourd), and open-access resources.
+- **Architecture:** ResNet50 (Transfer Learning)
+- **Other Models Tried:** VGG16, VGG19, EfficientNetB3, MobileNetV2, Xception
+- **Accuracy:** 99.01% on test set
+- **Image Size:** 224x224 (JPEG)
+- **Training Tools:** TensorFlow, Scikit-learn, Albumentations
+- **Hardware:** NVIDIA RTX 3050 GPU
 
-🔧 Preprocessing
-Image augmentation using Albumentations
+---
 
-Resizing to 224x224 and conversion to JPEG
-
-Dataset compression for deployment optimization
-
-🧠 Model Training
-Architecture: Transfer Learning using ResNet50, VGG19, EfficientNetB3, etc.
-
-Best Model: ResNet50 with 99.01% test accuracy
-
-Training Tools: TensorFlow, Scikit-learn, Matplotlib
-
-Hardware: RTX 3050, batch size 64, early stopping, fine-tuning
