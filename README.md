@@ -20,9 +20,9 @@ Krishi Mitra is a mobile application that helps farmers detect crop diseases usi
 
 ### 📁 Dataset
 
-- **Total Images:** 85,000
-- **Classes:** 95 disease categories
-- **Crops Covered:** 23 types
+- **Total Images:** 73,000
+- **Classes:** 73 disease categories
+- **Crops Covered:** 22 types
 - **Sources:** Merged from PlantVillage, custom (papaya, pigeonpea, bitter gourd), manual cleaning
 
 ### 🧠 Model
